@@ -1,0 +1,336 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta charset="iso-8859">
+	<script type="text/JavaScript" src="Scripts/Inicio.js"></script>
+
+	<link rel="stylesheet" href="Estilos/Inicio.css">
+	<link rel="stylesheet" href="Estilos/formularios.css">
+	<link rel="stylesheet" href="Estilos/footer.css">
+	<link rel="stylesheet" href="Estilos/media.css">
+	<link rel="stylesheet" type="text/css" href="Estilos/animaciones.css">
+
+	<script type="text/javascript" src="Scripts/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="Scripts/jquerycolors.js"></script>
+
+</head>
+
+<body id="pixeles" onload="pixelaje(); desactivar();" onresize="pixelaje();">
+
+	
+	<script type="text/javascript" src="Scripts/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="Scripts/jquerycolors.js"></script>
+	<script type="text/JavaScript" src="Scripts/Inicio.js"></script>
+
+
+	<aside id="trans"></aside>
+			<!--Formulario de inicio de sesion del operador-->
+			<section id="logOp" class="bordesAn">
+
+				<header id="cabeceraLOGOP">
+					<section id="logoLOGOP">
+						<img id="logoIm" src="archivosInicio/bu.png" width="95%" height="100%">
+					</section>
+
+					<section id="nomLOGOP"><p id="parrafoLOGOP">Inicio de Sesion de Operador</p></section>
+					
+					<section id="regresarL" class="agrandar"><img src="archivosInicio/cancel.png" width="100%" height="100%"></section>
+				</header>
+
+				<br>
+				<form action="PHP/loginOp.php" method="POST" id="formLOP">
+
+					<br>
+					<label for="correoLOGOP"><b>Email</b></label><br>
+					<input value="" type="email" name="correoLOGOP" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="passLOGOP"><b>Contraseña</b></label><br>
+					<input id="inPass" value="password" type="password" name="passLOGOP" required>
+					<aside id="ojo" class="ojos"><img src="archivosInicio/ojo.png" width="10%" height="100%"></aside>
+					<br><br>
+					<p align="center" id="recuperarBTN">Recuperar Contraseña</p>
+
+					<br>
+					<button class="btnLOP botonesAn" type="button" id="registrarO">Registrarme</button>
+					<button class="btnLOP botonesAn" type="submit">Iniciar</button>
+				</form>
+			</section>
+
+			<!--Formulario de recuperacion de contraseña del operador-->
+			<section id="recuperarOp" class="bordesAn">
+
+				<header id="cabeceraLOGOP">
+					<section id="logoLOGOP">
+						<img id="logoIm" src="archivosInicio/bu.png" width="95%" height="100%">
+					</section>
+
+					<section id="nomLOGOP"><p id="parrafoLOGOP">Recuperar Contraseña</p></section>
+					
+					<section id="regresarRec" class="agrandar"><img src="archivosInicio/cancel.png" width="100%" height="100%"></section>
+				</header>
+
+				<br>
+				<form action="Recuperar/recuperar.php" method="POST" id="formLOP">
+
+					<br>
+					<label for="correoLOGOP"><b>Email</b></label><br><br>
+					<input value="" type="email" name="correoRec" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="correoLOGOP"><b>ID</b></label><br><br>
+					<input value="" type="number" name="idRec" autocomplete="off" required>
+
+					<br><br>
+					<button class="btnLOP botonesAn" type="submit">Recuperar</button>
+				</form>
+			</section>
+
+			<!--Formulario de registro del operador-->
+			<section id="regOp" class="bordesAn">
+
+				<header id="cabeceraLOGOP">
+					<section id="logoLOGOP">
+						<img id="logoIm" src="archivosInicio/bu.png" width="95%" height="100%">
+					</section>
+
+					<section id="nomLOGOP"><p id="parrafoLOGOP">Registro de Operador</p></section>
+					
+					<section id="regresarREGOP" class="agrandar"><img src="archivosInicio/cancel.png" width="100%" height="100%"></section>
+				</header>
+				
+				<form action="PHP/registroOp.php" method="POST" id="formLOP">
+
+					<br>
+					<label for="nomREGOP"><b>Nombre(s)</b></label><br>
+					<input value="" type="text" name="nomREGOP" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="apPREGOP"><b>Apellido Paterno</b></label><br>
+					<input value="" type="text" name="apPREGOP" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="apMREGOP"><b>Apellido Materno</b></label><br>
+					<input value="" type="text" name="apMREGOP" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="celREGOP"><b>Telefono</b></label><br>
+					<input value="" type="tel" name="ceREGOP" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="correoREGOP"><b>Email</b></label><br>
+					<input value="" type="email" name="correoREGOP" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="passREGOP"><b>Contraseña</b></label><br>
+					<input id="con1" value="" type="password" name="passREGOP" required>
+					<aside id="ojo21" class="ojos"><img src="archivosInicio/ojo.png" width="10%" height="100%"></aside>
+					<br><br>
+					<label for="passREGOP2"><b>Repetir Contraseña</b></label><br>
+					<input id="con2" value="" type="password" name="passREGOP2" required>
+					<aside id="ojo22" class="ojos"><img src="archivosInicio/ojo.png" width="10%" height="100%"></aside>
+
+					<br>
+					<button class="btnLOP botonesAn" type="button" id="backREGOP">Regresar</button>
+					<button class="btnLOP botonesAn" type="submit">Registrar</button><br><br>
+				</form>
+
+			</section>
+
+
+			<!--Formulario de inicio de sesion del encargado-->
+			<section id="logEn" class="bordesAn">
+				
+				<header id="cabeceraLOGOP">
+					<section id="logoLOGOP">
+						<img id="logoIm" src="archivosInicio/bu.png" width="95%" height="100%">
+					</section>
+
+					<section id="nomLOGOP"><p id="parrafoLOGOP">Inicio de Sesion de Encargado</p></section>
+					
+					<section id="regresarE" class="agrandar"><img src="archivosInicio/cancel.png" width="100%" height="100%"></section>
+				</header>
+
+				<br>
+				<form action="PHP/loginEn.php" method="POST" id="formLOP">
+
+					<br>
+					<label for="correoEN"><b>Email</b></label><br>
+					<input value="" type="email" name="correoLOGEN" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="passEN"><b>Contraseña</b></label><br>
+					<input id="con3" value="password" type="password" name="passLOGEN" required>
+					<aside id="ojo31" class="ojos"><img src="archivosInicio/ojo.png" width="10%" height="100%"></aside>
+					<br><br>
+					<p align="center" id="recuperarBTNEN">Recuperar Contraseña</p>
+
+					<br>
+					<button class="btnLOP botonesAn" type="button" id="registrarE">Registrarme</button>
+					<button class="btnLOP botonesAn" type="submit">Iniciar</button>
+				</form>
+
+			</section>
+
+			<!--Formulario de recuperar contraseña del encargado-->
+			<section id="recuperarEn" class="bordesAn">
+
+				<header id="cabeceraLOGOP">
+					<section id="logoLOGOP">
+						<img id="logoIm" src="archivosInicio/bu.png" width="95%" height="100%">
+					</section>
+
+					<section id="nomLOGOP"><p id="parrafoLOGOP">Recuperar Contraseña</p></section>
+					
+					<section id="regresarRecEn" class="agrandar"><img src="archivosInicio/cancel.png" width="100%" height="100%"></section>
+				</header>
+
+				<br>
+				<form action="Recuperar/recuperarEn.php" method="POST" id="formLOP">
+
+					<br>
+					<label for="correoRecEn"><b>Email</b></label><br><br><br>
+					<input value="" type="email" name="correoRecEn" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="correoLOGOP"><b>ID</b></label><br><br>
+					<input value="" type="number" name="idRecEn" autocomplete="off" required>
+
+					<br><br>
+					<button class="btnLOP botonesAn" type="submit">Recuperar</button>
+				</form>
+			</section>
+
+			<!--Formulario de registro del encargado-->
+			<section id="regEn" class="bordesAn">
+
+				<header id="cabeceraLOGOP">
+					<section id="logoLOGOP">
+						<img id="logoIm" src="archivosInicio/bu.png" width="95%" height="100%">
+					</section>
+
+					<section id="nomLOGOP"><p id="parrafoLOGOP">Registro de Encargado</p></section>
+					
+					<section id="regresarREGEN" class="agrandar"><img src="archivosInicio/cancel.png" width="100%" height="100%"></section>
+				</header>
+				
+				<form action="PHP/registroEn.php" method="POST" id="formLOP">
+
+					<br>
+					<label for="nomREGEN"><b>Nombre(s)</b></label><br>
+					<input value="" type="text" name="nomREGEN" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="apPREGEN"><b>Apellido Paterno</b></label><br>
+					<input value="" type="text" name="apPREGEN" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="apMREGEN"><b>Apellido Materno</b></label><br>
+					<input value="" type="text" name="apMREGEN" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="areaREGEN"><b>Area de Trabajo</b></label><br>
+					<input value="" type="text" name="areaREGEN" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="telREGEN"><b>Telefono</b></label><br>
+					<input value="" type="number" name="telREGEN" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="correoREGEN"><b>Email</b></label><br>
+					<input value="" type="email" name="correoREGEN" autocomplete="off" required>
+					<br><br><br><br>
+					<label for="passREGEN"><b>Contraseña</b></label><br>
+					<input id="con4" value="" type="password" name="passREGEN" required>
+					<aside id="ojo41" class="ojos"><img src="archivosInicio/ojo.png" width="10%" height="100%"></aside>
+					<br><br><br><br>
+					<label for="passREGEN2"><b>Repetir Contraseña</b></label><br>
+					<input id="con5" value="" type="password" name="passREGEN2" required>
+					<aside id="ojo42" class="ojos"><img src="archivosInicio/ojo.png" width="10%" height="100%"></aside>
+					<br><br><br><br>
+					<label for="claveREGEN"><b>Clave Unica de Acceso</b></label><br>
+					<input value="12345" type="password" name="claveREGEN" required>
+
+					<br>
+					<button class="btnLOP botonesAn" type="button" id="backREGEN">Regresar</button>
+					<button class="btnLOP botonesAn" type="submit">Registrar</button><br><br>
+				</form>
+
+			</section>
+
+	<!--Contenido de la pagina principal-->
+	<div id="todo">
+
+			
+		<header id="cabecera" class="cambio">
+			
+			<section id="logo">
+				<img id="logoIm" src="archivosInicio/bu.png" width="65%" height="100%">
+			</section>
+
+			<section id="nom"><i><p>SCOTP</p></i></section>
+		
+			<a href="Quienes/quien.html"><section id="quienes">
+				<section id="quienesAn"></section>
+				<section id="quienesAn2"></section>
+				<p id="textQuienes">¿Quienes Somos?</p>
+			</section></a>
+
+			<a href="Contactanos/cont.html"><section id="contact">
+				<section id="contactAn"></section>
+				<section id="contactAn2"></section>
+				<p id="textContact">Contactanos</p>
+			</section></a>
+
+		</header>
+
+
+		<main id="principal">
+
+			<section id="contenedor">
+				
+
+
+				<section id="opr">
+					<img id="imOp" src="archivosInicio/camion1.png">
+				</section>
+			
+				<section id="enc">
+					<img id="imEn" src="archivosInicio/administrador.png">
+				</section>
+				
+			</section>
+
+
+			<aside id="esqIz" class="cambioEsq"></aside>
+			<aside id="esqDer" class="cambioEsq"></aside>
+
+			<aside id="abaIz" class="cambioEsqAba"></aside>
+			<aside id="abaDer" class="cambioEsqAba"></aside>
+			
+		</main>
+
+		
+		
+
+	</div>
+	
+	<footer id="pie" class="cambio">
+		
+		<section id="tel">
+			<section class="imgF"><img id="imTel" src="archivosInicio/phone.png" width="70%" height="100%"></section>
+			<section class="textF"><p class="textoFo" id="textTA">33385555</p></section>
+		</section>
+		<section id="face">
+			<section class="imgF"><img id="imFa" src="archivosInicio/face.png" width="70%" height="100%"></section>
+			<section class="textF"><p class="textoFo">Facebook</p></section>
+		</section>
+		<section id="ubi">
+			<section class="imgF"><img id="imUbi" src="archivosInicio/loca.png" width="70%" height="100%"></section>
+			<section class="textF"><p class="textoFo" id="textUA">Dirección: Anillo Periferico Norte #7510 Colonia: Jardines de Santa María</p></section>
+		</section>
+		<section id="emp">
+			<section class="imgF"><img id="imEm" src="archivosInicio/traba.png" width="70%" height="100%"></section>
+			<section class="textF"><p class="textoFo" id="textEA">transporjal ruta 623-A S.A. De C.V.</p></section>
+		</section>
+		
+	</footer>
+
+	
+	<script type="text/JavaScript" src="Scripts/Inicio.js"></script>
+	<script type="text/javascript" src="Scripts/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="Scripts/jquerycolors.js"></script>
+
+</body>
+
+</html>

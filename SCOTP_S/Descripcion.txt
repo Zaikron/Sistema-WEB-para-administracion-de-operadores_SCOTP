@@ -1,0 +1,52 @@
+Integrantes:
+
+Sandoval Marquez Anthony Esteven
+Gonzalez Renteria Julieta
+Plasencia Chaparro Cristopher
+Garcia Gutierrez Eduardo
+
+---------------------------------------------------------------------
+Elementos del proyecto:
+
+1. Página de incio del sitio web.
+2. Formulario de inicio de sesión del operador.
+3. Formulario inicio de sesión del encargado.
+4. Formulario de registro para el operador.
+5. Formulario de registro para el encargado.
+6. Interfaz de usuario del operador.
+7. Página de "¿Quiénes somos?"
+8. Página de "Contáctanos".
+
+---------------------------------------------------------------------
+Que realizo cada uno:
+
+Sandoval Marquez Anthony Esteven:
+	*Pagina de inicio.
+	*Formularios de inicio y registro se sesion.
+	*Interfaz del operador.
+
+Gozalez Renteria Julieta:
+	*Pagina de "Contactanos"
+
+Plasecia Chaparro Cristopher:
+	*Pagina de "¿Quienes Somos?"
+
+Garcia Gutierrez Eduardo
+	*NADA
+
+---------------------------------------------------------------------
+Archivos:
+
+"inicio.html": Pagina principal
+Carpeta "archivosInicio": Archivos necesarios para la pagina de inicio.
+Carpeta "Contactanos": Pagina de Contactanos(cont.html) y archivo necesarios.
+Carpeta "Quienes": Pagina de ¿Quienes Somos?(quien.html) y archivo necesarios.
+Carpeta "Operador": Interfaz del operador donde se muestran sus datos.
+Carpeta "Estilos": Diseño.
+Carpeta "Scripts": Diseño y Funcionalidades.
+
+---------------------------------------------------------------------
+
+
+
+

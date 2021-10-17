@@ -1,0 +1,75 @@
+/*Redimensiones para index.html*/
+@media screen and (min-width: 1000px) {
+  #contenedor {
+  	margin-top: 160px;
+   	width: 650px; 
+	height: 320px;
+	z-index: 9;
+  }
+  #opr, #enc{
+  	width: 240px; 
+	height: 240px;
+  }
+  #imOp, #imEn{
+  	width: 240px; 
+	height: 240px;
+  }
+  #logOp, #logEn, #regOp, #regEn, #recuperarOp, #recuperarEn{
+  	width: 60%;
+	height: 490px;
+  }
+
+  input{
+  	font-size: 20px;
+  	width: 300px;
+  }
+  button{
+  	width: 90px;
+	height: 40px;
+	font-size: 13px;
+  }
+  label{
+  	font-size: 17px;
+  }
+  #nomLOGOP{
+  	font-size: 20px;
+  }
+  #logoLOGOP{
+  	width: 65px;
+	height: 60px;
+  }
+  #regresarL, #regresarE, #regresarREGOP, #regresarREGEN, #regresarRec, #regresarRecEn{
+  	width: 25px;
+	height: 25px;
+	margin-left: 95%;
+  }
+  #pie{
+  		height: 90px;
+  	}
+  	#face{
+  		margin-top: 25px;
+		margin-left: 40px;
+  	}
+  	#emp{
+  		margin-top: 25px;
+		margin-right: 40px;
+  	}
+    .ojos{
+      width: 250px;
+    height: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+  #abaIz, #abaDer{
+    visibility: hidden;
+  }
+
+}
+
+
+
+
+
+

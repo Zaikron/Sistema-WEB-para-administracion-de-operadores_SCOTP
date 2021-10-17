@@ -1,0 +1,82 @@
+#tel{
+
+	width: 230px;
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 40px;
+	float: left;
+
+}
+
+
+#face{
+
+	width: 230px;
+	height: 40px;
+	margin-top: 90px;
+	margin-left: -230px;
+	float: left;
+
+}
+
+
+#ubi{
+
+	width: 230px;
+	height: 40px;
+	margin-top: 25px;
+	margin-right: 40px;
+	float: right;
+
+}
+
+#emp{
+
+	width: 230px;
+	height: 40px;
+	margin-top: 90px;
+	margin-right: -230px;
+	float: right;
+
+}
+
+
+.imgF{
+
+	width: 59px;
+	height: 40px;
+	float: left;
+	border-right: 1px solid #2859a5;
+}
+
+
+.textF{
+
+	width: 170px;
+	height: 40px;
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+
+}
+
+
+.textoFo{
+
+	margin-top: 7px;
+	margin-left: 20px;
+}
+
+
+#textUA{
+
+	font-size: 12px;
+	margin-top: 0px;
+}
+
+#textEA{
+
+	font-size: 17px;
+	margin-top: 0px;
+}

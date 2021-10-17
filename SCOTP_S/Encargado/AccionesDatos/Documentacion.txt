@@ -1,0 +1,45 @@
+-conectar.php
+	*Contiene 2 funciones: crearTabla() muestra todos los registros existentes de
+	la base de datos.
+	mostrarUnidades() muestra todos los campos de la tabla unidad
+
+2-mod.php
+	*Recibe la clave principal generada en searchMod.php mediante un clic a cierto
+	boton, se hace una consulta para guardar los datos en variables y posteriormente
+	mostrarlos en html a traves de inputs modificables. Se envian a consultaMod.php
+
+3-consultaMod.php
+	*Recibe mediante post todos los nuevos campos de un operador desde el archivo mod.php y
+	se actualizan en la base de datos.
+
+-delete.php
+	*se acciona cuando se da clic desde searchMod.php a cualquiera de los botones
+	para eliminar, recibe la clave principal y elimina los registros relacionados.
+
+
+-search.js
+	*Contiene una funcion que actua cuando se ingresan datos al input. la salida
+	a mostrar se obtendra de search.php, la variable 'consulta' almacenara lo que
+	se ingrese al input (se utiliza el id), en ajax a el name 'b', es decir, el nombre
+	identificador del input se le asignara el valor de la variable 'consulta'. Esto para
+	que pueda ser recibido mediante post posteriormente. Cuando la funcion en 
+	ajax se complete se recibira la salida en la variable 'data' y sera mostrado
+	todo en un parrafo.
+
+-search.php
+	*Obtiene mediante post el valor en el nombre 'b' del input (que anteroirmente ya
+	fue establecido en search.js). Se hara una consulta del nombre introducido en el input
+	con name = 'b', que fue asignado por la variable 'consulta' en search.js. Esta consulta
+	se estara realizando cada vez que se ingrese algo en el input, por lo tanto se estara
+	mostrando y actualizando la tabla con los datos cada registro que coincida.
+
+-searchMod.js
+	Lo mismo que serach.js
+
+1-searchMod.php
+	Lo mismo que search.php con la direrencia de que en el while se generan cierto numero de
+	botones de modificar y eleiminar los cuales estan dentro de forms y son de tipo submit.
+	Cada ves que se generan estos botones debido al bucle tambien se genera un input oculto
+	que tomara como valor la clave principal del campo que se esta mostrando en pantalla en
+	ese instante del while. Si se da clic en modificar se enviara la clave primaria almacenada
+	en el input mediante post a mod.php, lo mismo con el boton de eliminar a delete.php.

@@ -1,0 +1,43 @@
+/*Redimensiones para operador.php*/
+@media screen and (min-width: 1000px) {
+
+	#cambiarOp{
+		width: 60%;
+		height: 490px;
+	}
+	input{
+	  	font-size: 20px;
+	  	width: 250px;
+  	}
+  	button{
+	  	width: 90px;
+		height: 40px;
+		font-size: 13px;
+  	}
+  	label{
+  		font-size: 17px;
+  	}
+  	#nomLOGOP{
+  		font-size: 20px;
+  	}
+  	#logoLOGOP{
+	  	width: 65px;
+		height: 60px;
+  	}
+  	#regresarCam{
+  		width: 25px;
+		height: 25px;
+		margin-left: 95%;
+  	}
+  	.ojos{
+  		width: 250px;
+		height: 20px;
+  	}
+  	.datosObt{
+  		font-size: 25px;
+  	}
+  	.titulos{
+  		font-size: 30px;
+  	}
+}
+

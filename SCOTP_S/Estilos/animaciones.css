@@ -1,0 +1,77 @@
+
+.bordesAn{
+
+	-webkit-animation-name: bordes;
+	-webkit-animation-duration: 0.7s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	/*-webkit-animation-direction: alternate;*/
+}
+
+@-webkit-keyframes bordes{
+
+	0% {}
+	13% {border-top: #0092E6 3px solid;}
+	26% {border-right: #00BEEC 3px solid;}
+	39% {border-bottom: #0092E6 3px solid;}
+	52% {border-left: #00BEEC 3px solid;}
+
+	65% {border-top: #00BEEC 3px solid;}
+	78% {border-right: #0092E6 3px solid;}
+	91% {border-bottom: #00BEEC 3px solid;}
+	100% {border-left: #0092E6 3px solid;}
+}
+
+input:focus{
+	-webkit-animation-name: bordeAbajo;
+	-webkit-animation-duration: 0.9s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bordeAbajo{
+
+	0% {border-bottom: #006DAB 3px solid;}
+	50% {border-bottom: #0092E6 3px solid;}
+	100% {border-bottom: #006DAB 3px solid;}
+
+}
+
+
+#opr, #enc{
+	-webkit-animation-name: btnRedondo;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	
+}
+
+
+@-webkit-keyframes btnRedondo{
+
+	0%{border: #006FCC 5px solid;}
+	50% {border: #64b6c2 5px solid;}
+	100% {border: #006FCC 5px solid;}
+}
+
+
+.botonesAn{
+
+	-webkit-transition: -webkit-filter .5s linear;
+}
+
+.botonesAn:hover{
+
+	-webkit-filter: saturate(345%);
+}
+
+
+.agrandar{
+
+	-webkit-transition: -webkit-transform .2s linear;
+}
+
+.agrandar:hover{
+
+	-webkit-transform: scale(1.2);
+}

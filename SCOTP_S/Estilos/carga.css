@@ -1,0 +1,133 @@
+#carga{
+
+	width: 100%;
+	height: 400%;
+	background-color: #153740;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+
+	overflow: hidden;
+
+}
+
+
+
+#crgLog{
+
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: absolute;
+
+	margin-top: 250px;
+	margin-left: 20%;
+}
+
+#crgText{
+
+	width: 500px;
+	height: 150px;
+	float: left;
+	position: absolute;
+
+	margin-top: 250px;
+	margin-left: 45%;	
+}
+
+#s, #c, #o, #t, #p{
+	
+	width: 100px;
+	height: 150px;
+	float: left;
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	position: absolute;
+	margin-top: -500px;
+	font-weight: bold;
+	background-color: #153740;
+
+	text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color: #FFF;
+}
+
+#c{
+	margin-left: 100px;
+}
+#o{
+	margin-left: 200px;
+}
+#t{
+	margin-left: 300px;
+}
+#p{
+	margin-left: 400px;
+}
+
+
+#load1{
+
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	float: left;
+	background-color: #154f73;
+
+	margin-top: 575px;
+	margin-left: 100%;
+	
+}
+
+
+#load2{
+
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	float: left;
+	background-color: #3f6c9e;
+
+	margin-top: 470px;
+	margin-left: -100%;
+	
+}
+
+#load3{
+
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	float: left;
+	background-color: #154f73;
+
+	margin-top: 65px;
+	margin-left: 100%;
+	
+}
+
+
+#load4{
+
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	float: left;
+	background-color: #3f6c9e;
+
+	margin-top: 170px;
+	margin-left: -100%;
+
+}

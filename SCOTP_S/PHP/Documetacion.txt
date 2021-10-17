@@ -1,0 +1,25 @@
+agregarUidad.php
+	*Recibe mediante POST el  numero de placas y de unidad para insertarlos en
+	la base de datos. Se redirige hacia encargado.php
+
+cerrarEn.php
+	*Destrulle la session actual
+
+cerrarOp.php
+	*Destrulle la session actual
+
+loginEn.php
+	*Recibe el correo y contraseña, busca coincidencias con el correo, si es asi,
+	comprueba que la contraseña sea igual a la registrada.
+
+loginOp.php
+	*Recibe el correo y contraseña, busca coincidencias con el correo, si es asi,
+	comprueba que la contraseña sea igual a la registrada.
+
+registroEn.php
+	*Se reciben todos los datos, se comprueba si el correo ingresado ya esta
+	registrado anteriormente y se verifica que las dos contraseñas coincidan
+
+registroOp.php
+	*Se reciben todos los datos, se comprueba si el correo ingresado ya esta
+	registrado anteriormente y se verifica que las dos contraseñas coincidan

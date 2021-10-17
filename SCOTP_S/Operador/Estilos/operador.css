@@ -1,0 +1,404 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+
+	background-color: #bcd0ff;
+	width: 100%;
+	min-width: 700px;
+	min-height: 440px;
+
+	-webkit-filter: saturate(145%);
+	-moz-filter: saturate(145%);
+	-o-filter: saturate(145%);
+	filter: saturate(145%);
+}
+
+
+::-webkit-scrollbar{
+	border: outset #167286;
+     background-color: #167286;
+     width: 10px;
+     height: 8px;
+} 
+
+
+::-webkit-scrollbar-thumb {
+	border: outset #167286;
+    background-color: #153740;
+} 
+
+::-webkit-scrollbar-button {
+	border: outset #167286;
+    background-color: #153740;
+}
+
+#cabecera{
+	width: 100%;
+	height: 65px;
+
+}
+
+
+.ojos{
+
+	width: 350px;
+	height: 30px;
+	background-color: white;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+
+#salirLOGO{
+
+	width: 45px;
+	height: 45px;
+	margin-top: 0.4%;
+	margin-left: 0.5%;
+	position: absolute;
+}
+
+
+#cambiarPass{
+
+	width: 45px;
+	height: 45px;
+	float: right;
+	margin-top: -53px;
+	margin-right: 1%;
+}
+
+#scotp{
+	width: 200px;
+	height: 61px;
+	margin: auto;
+	color: #153740;
+	font-size: 60px;
+	text-align: center;
+	
+
+	border-left: solid 2px #167286;
+	border-right: solid 2px #167286;
+
+}
+
+
+#cabecera2{
+
+	width: 100%;
+	height: 120px;
+	position: relative;
+	
+	background-color: rgba(21, 55, 64);
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+
+}
+
+#nombre{
+
+	position: absolute;
+	width: 48%;
+	height: 65px;
+	margin-top: 0px;
+	margin-left: 2%;
+	overflow: hidden;
+
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	line-height: 65px;
+
+}
+
+#identificador{
+
+	position: absolute;
+	width: 26%;
+	height: 50px;
+	margin-top: 65px;
+	margin-left: 2%;
+	overflow: hidden;
+
+	font-size: 24px;
+	color: white;
+	line-height: 45px;
+}
+
+#estado{
+
+	position: absolute;
+	width: 47%;
+	height: 140px;
+	margin-top: 0px;
+	margin-left: 52%;
+	overflow: hidden;
+
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	line-height: 120px;
+	text-align: right;
+
+}
+
+#titDatos{
+
+	width: 100%;
+	height: 30px;
+	background-color: #A6C6DE;
+	border-bottom: #167286 1px solid;
+	border-top: #167286 1px solid;
+	float: left;
+	color: #153740;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+
+}
+#dat{margin-top: 0px;}
+
+
+#principal{
+
+	width: 100%;
+	background-color: #bcd0ff;
+
+	overflow-y: auto;
+}
+
+
+
+.sn1{
+
+	width: 460px;
+	height: 250px;
+	background-color: rgba(0, 108, 118, 0.4);
+	color: #213C47;
+	float: left;
+	margin-top: 40px;
+	margin-left: 12%;
+	margin-bottom: 40px;
+
+	border-radius: 40px 100px 40px 100px;
+
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+
+}
+
+.sn2{
+
+	width: 460px;
+	height: 250px;
+	background-color: rgba(0, 108, 118, 0.4);
+	color: #213C47;
+	float: right;
+	margin-top: 40px;
+	margin-right: 12%;
+	margin-bottom: 40px;
+
+	border-radius: 40px 100px 40px 100px;
+
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+
+}
+
+.titulos{
+
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.datosObt{
+
+	width: 80%;
+	height: 35px;
+	color: white;
+	margin: auto;
+	margin-top: 75px;
+	text-align: center;
+	font-size: 37px;
+
+}
+
+
+#pie{
+
+	width: 100%;
+	height: 30px;
+	float: left;
+	overflow: hidden;
+
+	background-color: rgba(21, 55, 64);
+
+}
+
+#textPie{
+
+	width: 620px;
+	height: 65px;
+	margin: auto;
+	margin-top: 4px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+/**/
+
+#cambiarOp{
+
+	width: 90%;
+	height: 530px;
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	
+	z-index: 111;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+}
+
+#cabeceraLOGOP{
+	
+	width: 100%;
+	height: 90px;
+	float: left;
+	background-color: #2a666c;
+
+	margin-bottom: 60px;
+
+}
+
+#nomLOGOP{
+
+	width: 55%;
+	height: 60px;
+	font-weight: bold;
+	font-size: 29px;
+	color: white;
+	float: left;
+	border-left: solid 2px #126672;
+
+	margin-top: 17px;
+	margin-left: 3%;
+	line-height: 60px;
+}
+
+#parrafoLOGOP{
+	float: left;
+	margin-left: 6%;
+}
+
+#logoLOGOP{
+
+	width: 85px;
+	height: 80px;
+	float: left;
+	margin: auto;
+
+	margin-top: 15px;
+	margin-left: 50px;
+
+}
+
+#regresarCam{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+
+	margin-left: 92%;
+	margin-top: 10px;
+}
+
+#logoIm{
+
+	border-radius: 10%;
+}
+
+
+label{
+
+	font-size: 27px;
+}
+
+
+input{
+
+	background-color: #2a666c;
+	border: 0px;
+	border-bottom: #3498DB 2px solid;
+	width: 350px;
+	text-align: center;
+
+	color: #193e34;
+
+	font-size: 28px;
+}
+
+button{
+
+	font-size: 20px;
+	
+	width: 130px;
+	height: 55px;
+}
+
+
+#trans{
+
+	width: 100%;
+	visibility: hidden;
+	position: absolute;
+	z-index: 100;
+	overflow: hidden;
+	
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.entradas{
+
+	background-color: #2a666c;
+	border: 0px;
+	border-bottom: #3498DB 2px solid;
+
+	color: #193e34;
+
+	font-size: 20px;
+}
+
+
+.btnCam{
+	color: #0b3338;
+	border: outset 5px #126672;
+	background-color: #147481;
+	border-radius: 10%;
+	font-weight: bold;
+
+}

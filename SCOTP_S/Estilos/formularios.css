@@ -1,0 +1,328 @@
+#logOp{
+
+	
+	width: 90%;
+	height: 530px;
+	/*min-height: 490px;*/
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	
+	z-index: 10;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+
+
+}
+
+input{
+	text-align: center;
+}
+
+.ojos{
+
+	width: 350px;
+	height: 30px;
+	background-color: white;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+
+
+::-webkit-scrollbar{
+	border: outset #167286;
+     background-color: #167286;
+     width: 10px;
+     height: 8px;
+} 
+
+
+::-webkit-scrollbar-thumb {
+	border: outset #167286;
+    background-color: #153740;
+} 
+
+::-webkit-scrollbar-button {
+	border: outset #167286;
+    background-color: #153740;
+}
+
+label{
+
+	font-size: 27px;
+}
+
+
+input{
+
+	background-color: #2a666c;
+	border: 0px;
+	border-bottom: #3498DB 3px solid;
+	width: 400px;
+
+	color: #193e34;
+
+	font-size: 28px;
+}
+
+button{
+
+	color: #0b3338;
+	border: outset 5px #126672;
+	background-color: #147481;
+	border-radius: 10%;
+	font-weight: bold;
+	font-size: 20px;
+	
+	width: 130px;
+	height: 55px;
+}
+
+
+.btnLOP{
+	
+	margin-top: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	font-weight: bold;
+}
+
+
+#cabeceraLOGOP{
+	
+	width: 100%;
+	height: 90px;
+	float: left;
+	background-color: #2a666c;
+
+	margin-bottom: 60px;
+
+}
+
+#nomLOGOP{
+
+	width: 55%;
+	height: 60px;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	float: left;
+	border-left: solid 2px #126672;
+
+	margin-top: 17px;
+	margin-left: 3%;
+	line-height: 60px;
+}
+
+#parrafoLOGOP{
+	float: left;
+	margin-left: 6%;
+}
+
+#logoLOGOP{
+
+	width: 85px;
+	height: 80px;
+	float: left;
+	margin: auto;
+
+	margin-top: 15px;
+	margin-left: 50px;
+
+}
+
+#regresarL{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+
+	margin-left: 92%;
+	margin-top: 10px;
+}
+
+
+#logEn{
+
+	width: 90%;
+	height: 530px;
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	position: absolute;
+	z-index: 11;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+
+}
+
+
+#regresarE{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+
+	margin-left: 92%;
+	margin-top: 10px;
+}
+
+
+#regOp{
+
+	width: 90%;
+	height: 530px;
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	position: absolute;
+	z-index: 12;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+
+}
+
+#regresarREGOP{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+
+	margin-left: 92%;
+	margin-top: 10px;
+}
+
+
+
+#regEn{
+
+	width: 90%;
+	height: 530px;
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	position: absolute;
+	z-index: 13;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+
+}
+
+#regresarREGEN{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+
+	margin-left: 92%;
+	margin-top: 10px;
+}
+
+
+
+#recuperarOp{
+
+	width: 90%;
+	height: 530px;
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	position: absolute;
+	z-index: 13;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+
+}
+
+#regresarRec{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+
+	margin-left: 92%;
+	margin-top: 10px;
+}
+
+
+#recuperarEn{
+
+	width: 90%;
+	height: 530px;
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	position: absolute;
+	z-index: 13;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+
+}
+
+#regresarRecEn{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+
+	margin-left: 92%;
+	margin-top: 10px;
+}

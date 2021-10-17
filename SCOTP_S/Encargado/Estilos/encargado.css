@@ -1,0 +1,695 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+
+	background-color: #bcd0ff;
+	width: 100%;
+
+	
+	min-width: 1200px;
+
+	-webkit-filter: saturate(145%);
+	-moz-filter: saturate(145%);
+	-o-filter: saturate(145%);
+	filter: saturate(145%);
+
+}
+
+table, tr, td{
+	color: white;
+	border-collapse: collapse;
+}
+
+::-webkit-scrollbar{
+	border: outset #167286;
+     background-color: #167286;
+     width: 12px;
+     height: 12px;
+} 
+
+
+::-webkit-scrollbar-thumb {
+	border: outset #167286;
+    background-color: #153740;
+} 
+
+::-webkit-scrollbar-button {
+	border: outset #167286;
+    background-color: #153740;
+}
+
+
+.ojos{
+
+	width: 250px;
+	height: 20px;
+	background-color: white;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+
+#sombra{
+
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	z-index: 10;
+	visibility: hidden;
+
+	background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+#prueba{
+
+	width: 0;
+	height: 0;
+	left: 0;
+	float: left;
+	border-top: 100px solid #153740;
+	border-right: 400px solid transparent;
+	position: absolute;
+}
+
+
+#prueba2{
+
+	width: 0;
+	height: 0;
+	right: 0;
+	float: right;
+	border-top: 100px solid #153740;
+	border-left: 400px solid transparent;
+	position: absolute;
+}
+
+
+#cabecera{
+	width: 100%;
+	height: 0px;
+
+}
+
+
+#salirLOGO{
+
+	width: 45px;
+	height: 45px;
+	margin-top: 0.4%;
+	margin-left: 0.5%;
+	position: absolute;
+	z-index: 10;
+}
+
+#cambiarPass{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	margin-top: 10px;
+	margin-right: 10px;
+
+	background-color: #68AAB2;
+	border-radius: 50%;
+}
+
+
+#scotp{
+	width: 200px;
+	height: 61px;
+	margin: auto;
+	color: #153740;
+	font-size: 60px;
+	text-align: center;
+	
+
+	border-left: solid 2px #167286;
+	border-right: solid 2px #167286;
+
+}
+
+
+#cabInfo{
+
+	width: 100%;
+	height: 200px;
+	min-width: 1200px;
+	background-color: #153740;
+	position: absolute;
+	margin-top: 61px;
+
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+
+}
+
+
+#funcionalidades{
+
+	width: 90%;
+	height: 300px;
+	min-width: 1200px;
+	margin-top: 310px;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	border: 1px solid #167286;
+	background-color: rgba(0, 0, 0, 0.2);
+
+
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+}
+
+
+#visualizar{
+
+	width: 250px;
+	height: 250px;
+	background-color: #167286;
+	margin-top: 25px;
+	margin-left: 7%;
+	float: left;
+	border-radius: 5%;
+
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+
+	-webkit-animation-name: big;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+
+	-webkit-transition: transform 3s;
+}
+
+
+@-webkit-keyframes big{
+
+	0% {}
+	50% {-webkit-transform: scale(1.05);}
+	100% {-webkit-transform: scale(1.1);}
+}
+
+#modificar{
+
+	width: 250px;
+	height: 250px;
+	background-color: #167286;
+	margin-top: 25px;
+	margin-left: 13%;
+	float: left;
+
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+
+	-webkit-animation-name: big;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay: 0.2s;
+}
+
+#agregar{
+
+	width: 250px;
+	height: 250px;
+	background-color: #167286;
+	margin-top: 25px;
+	margin-right: 7%;
+	float: right;
+
+	-webkit-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	-moz-box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+	box-shadow: 0px 0px 26px 3px rgba(21,55,64,1);
+
+	-webkit-animation-name: big;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay: 0.4s;
+}
+
+
+.textsFu{
+
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 90px;
+}
+
+#nom{
+	width: 500px;
+	height: 50px;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 40px;
+	margin-left: 25px;
+	float: left;
+}
+
+#area{
+	width: 650px;
+	height: 50px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-right: 25px;
+	float: right;
+}
+
+#id{
+	width: 200px;
+	height: 50px;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 120px;
+	margin-left: 25px;
+}
+
+#codigo{
+	width: 650px;
+	height: 50px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 25px;
+	margin-top: -45px;
+	float: right;
+
+}
+
+/*Ventana de ver registros*/
+#verReg{
+
+	width: 1000px;
+	height: 580px;
+	background-color: #68AAB2;
+	position: absolute;
+	z-index: 20;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	overflow: hidden;
+
+	visibility: hidden;
+}
+
+#cabVer{
+
+	width: 100%;
+	height: 75px;
+	background-color: #153740;
+}
+
+#tablaVer{
+
+	width: 90%;
+	height: 83%;
+	margin: auto;
+	background-color: #68AAB2;
+	margin-top: 0;
+	overflow-y: auto;
+	font-size: 15px;
+}
+
+
+#entradaBus{
+
+	width: 25%;
+	height: 40%;
+	font-size: 15px;
+
+	margin-top: 2.1%; 
+	margin-left: 16%;
+}
+
+#imBus{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	margin-top: 1.5%;
+	margin-left: 8%;
+}
+
+#imBack{
+
+	width: 45px;
+	height: 45px;
+	float: right;
+	margin-top: 1.5%;
+	margin-right: 8%;
+}
+
+
+/*Ventana modificar*/
+
+#modReg{
+
+	width: 1000px;
+	height: 580px;
+	background-color: #68AAB2;
+	position: absolute;
+	z-index: 20;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+
+	visibility: hidden;
+	overflow: hidden;
+}
+
+#cabMod{
+
+	width: 100%;
+	height: 75px;
+	background-color: #153740;
+}
+
+#tablaMod{
+
+	width: 90%;
+	height: 83%;
+	margin: auto;
+	background-color: #68AAB2;
+	margin-top: 3%;
+	overflow-y: auto;
+	font-size: 15px;
+}
+
+
+#entradaBusMod{
+
+	width: 25%;
+	height: 40%;
+	font-size: 15px;
+
+	margin-top: 2.1%; 
+	margin-left: 16%;
+}
+
+#imBusMod{
+
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	margin-top: 1.5%;
+	margin-left: 8%;
+}
+
+#imBackMod{
+
+	width: 45px;
+	height: 45px;
+	float: right;
+	margin-top: 1.5%;
+	margin-right: 8%;
+}
+
+#botonMod{
+
+	margin-left: 25%;
+	margin-top: 2%;
+	color: #153740;
+	font-size: 15px;
+	font-weight: bold;
+	border: 3px outset #68AAB2;
+	background-color: #68AAB2;
+}
+
+
+
+
+/*Ventana agregar*/
+
+
+#addReg{
+
+	width: 1000px;
+	height: 580px;
+	background-color: #68AAB2;
+	position: absolute;
+	z-index: 20;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+
+	visibility: hidden;
+	overflow: hidden;
+}
+
+#cabAdd{
+
+	width: 100%;
+	height: 60px;
+	background-color: #153740;
+}
+
+#tablaAdd{
+
+	width: 45%;
+	height: 300px;
+	float: left;
+	background-color: #68AAB2;
+	margin-top: 10%;
+
+	margin-left: 3%;
+	text-align: center;
+	font-size: 15px;
+	overflow: auto;
+}
+
+#unidades{
+
+	width: 45%;
+	height: 400px;
+	float: right;
+	background-color: #68AAB2;
+	margin-top: 7%;
+
+	margin-right: 3%;
+	text-align: center;
+	font-size: 15px;
+	overflow: auto;
+}
+
+.unis{
+	font-size: 20px;
+}
+
+
+#imBackAdd{
+
+	width: 45px;
+	height: 45px;
+	float: right;
+	margin-top: 1%;
+	margin-right: 8%;
+}
+
+#botonAdd{
+	width: 140px;
+	height: 30px;
+	margin-left: 7%;
+	margin-top: 2%;
+	color: #153740;
+	font-size: 15px;
+	font-weight: bold;
+	border: 3px outset #68AAB2;
+	background-color: #68AAB2;
+}
+
+#entradaPlacas, #entradaUnidad{
+
+	margin-top: 7%;
+}
+
+input{
+	background-color: #68AAB2;
+	border: 0px;
+	border-bottom: solid 3px #153740;
+	text-align: center;
+}
+
+label{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+
+/**/
+
+#cambiarEn{
+
+	width: 60%;
+	height: 490px;
+	min-height: 490px;
+	float: left;
+	margin-top: 6%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	border-radius: 1%;
+	overflow: auto;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	
+	z-index: 111;
+	
+	background-color: #2a666c;
+	border: solid 3px #126672;
+}
+
+#cabeceraLOGOP{
+	
+	width: 100%;
+	height: 90px;
+	float: left;
+	background-color: #2a666c;
+
+	margin-bottom: 60px;
+
+}
+
+#nomLOGOP{
+
+	width: 40%;
+	height: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	float: left;
+	border-left: solid 2px #126672;
+
+	margin-top: 17px;
+	margin-left: 3%;
+	line-height: 60px;
+}
+
+#parrafoLOGOP{
+	float: left;
+	margin-left: 6%;
+}
+
+#logoLOGOP{
+
+	width: 65px;
+	height: 60px;
+	float: left;
+	margin: auto;
+
+	margin-top: 15px;
+	margin-left: 50px;
+
+}
+
+#regresarCam{
+
+	width: 25px;
+	height: 25px;
+	position: absolute;
+
+	margin-left: 95%;
+	margin-top: 10px;
+}
+
+#logoIm{
+
+	border-radius: 10%;
+}
+
+input{
+
+	text-align: center;
+}
+
+
+#trans{
+
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	position: absolute;
+	z-index: 100;
+	overflow: hidden;
+	
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.entradas{
+
+	background-color: #2a666c;
+	border: 0px;
+	border-bottom: #3498DB 2px solid;
+
+	color: #193e34;
+
+	font-size: 20px;
+}
+
+
+.btnCam{
+	color: #0b3338;
+	border: outset 5px #126672;
+	background-color: #147481;
+	border-radius: 10%;
+	font-weight: bold;
+
+	width: 90px;
+	height: 40px;
+}
+
+
+.soloCam{
+
+	color: white;
+	font-size: 17px;
+}
+
+
